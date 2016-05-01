@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent"
+    android:orientation="vertical"
+    tools:context="in.hiddenbrains.calc.Activities.LovaCalCMainActivity"
+    >
+
+    <LinearLayout
+        android:paddingLeft="@dimen/tendp"
+        android:paddingRight="@dimen/tendp"
+        android:background="@drawable/simple_calc_rectangle_button"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="@dimen/tendp"
+            android:layout_marginBottom="@dimen/tendp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/LoveCalCMainTextViewTheme"
+                android:text="@string/him"
+                 />
+            <EditText
+                android:id="@+id/himname"
+                style="@style/LoveCalCMainEditTextTheme"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/tendp"
+            android:layout_marginBottom="@dimen/tendp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/LoveCalCMainTextViewTheme"
+                android:text="@string/birthday"
+                />
+            <Button
+                android:id="@+id/himbirthday"
+                android:textSize="@dimen/elevendp"
+                android:layout_weight="1"
+                android:text="@string/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/tendp"
+            android:layout_marginBottom="@dimen/tendp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/LoveCalCMainTextViewTheme"
+                android:text="@string/zodiac"
+                />
+            <Spinner
+                android:id="@+id/himspinner"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></Spinner>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="@dimen/tendp"
+        android:paddingRight="@dimen/tendp"
+        android:layout_marginTop="@dimen/thirtydp"
+        android:background="@drawable/simple_calc_rectangle_button"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="@dimen/tendp"
+            android:layout_marginBottom="@dimen/tendp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/LoveCalCMainTextViewTheme"
+                android:text="@string/her"
+                />
+            <EditText
+                android:id="@+id/hername"
+                style="@style/LoveCalCMainEditTextTheme"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/tendp"
+            android:layout_marginBottom="@dimen/tendp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/LoveCalCMainTextViewTheme"
+                android:text="@string/birthday"
+                />
+            <Button
+                android:id="@+id/herbirthday"
+                android:textSize="@dimen/elevendp"
+                android:layout_weight="1"
+                android:text="@string/text4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/tendp"
+            android:layout_marginBottom="@dimen/tendp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/LoveCalCMainTextViewTheme"
+                android:text="@string/zodiac"
+                />
+            <Spinner
+                android:id="@+id/herspinner"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></Spinner>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="@dimen/twentydp"
+        android:id="@+id/calculate"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+        android:textSize="@dimen/twentyfivedp"
+        android:text="@string/calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
