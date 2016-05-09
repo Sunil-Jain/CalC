@@ -2,9 +2,6 @@ package in.hiddenbrains.calc.Calculations;
 
 import java.text.DecimalFormat;
 
-/**
- * Created by sunil on 25-03-2016.
- */
 public class MortgageCalculation {
     private Double homeamount , downpayment , interestrate , timeinyears;
     private Double propertytax , homeownerinsurence , hoadues;
