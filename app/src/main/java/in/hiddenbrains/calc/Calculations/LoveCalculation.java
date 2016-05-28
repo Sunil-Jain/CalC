@@ -40,7 +40,6 @@ public class LoveCalculation {
         Double himtemp4 = (himtemp3 * 100 / 90) + himlength;
         Double hertemp4 = (hertemp3 * 100 / 90) + herlength;
         answer = (int) ((((himtemp4 * 100 / 90) + (hertemp4 * 100 / 90) + 90) % 100) + 90 ) % 100;
-
         if(answer < 20){
             answer = answer + 20;
         }

@@ -44,11 +44,11 @@
 
     <TextView
         android:layout_marginTop="@dimen/fourtydp"
-        android:text="@string/to"
-        android:textSize="@dimen/twelvedp"
+        android:textSize="@dimen/twentyfivedp"
         android:layout_marginLeft="@dimen/fiftydp"
         style="@style/ConvertorCalcTextView"
-        android:layout_width="@dimen/fiftydp" />
+        android:layout_width="@dimen/fiftydp"
+        android:text="@string/to" />
 
     <Spinner
         android:id="@+id/tospinner"

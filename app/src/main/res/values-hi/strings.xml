@@ -48,6 +48,7 @@
     <string name="substraction">-</string>
     <string name="dot">.</string>
     <string name="equal">=</string>
+    <string name="to12">To</string>
 
     <!-- activity_interest_cal_coutput string variables -->
     <string name="principle">मुख्य राशि</string>
