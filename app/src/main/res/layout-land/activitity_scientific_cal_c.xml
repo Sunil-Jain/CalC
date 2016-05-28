@@ -113,7 +113,7 @@
                 android:id="@+id/cos" />
             <Button
                 style="@style/SimpleCalculatorButtonTheme"
-                android:text="@string/cos"
+                android:text="@string/tan"
                 android:id="@+id/tan" />
             <Button
                 style="@style/SimpleCalculatorButtonTheme"
